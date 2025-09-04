@@ -52,18 +52,9 @@ A beautiful, responsive todo list application with a glassmorphism design that h
    - `check.svg` - Checkmark icon
 
 3. **Launch the app**
-   Simply open `index.html` in your web browser or use a local server:
+   Simply open `index.html` in your web browser 
 
-   ```bash
-   # Using Python
-   python -m http.server 8000
-
-   # Using Node.js
-   npx serve .
-
-   # Using PHP
-   php -S localhost:8000
-   ```
+---
 
 4. **Start organizing!** 🎉
 
@@ -118,35 +109,7 @@ todo-list-app/
 - **Dynamic Filtering**: Real-time task filtering without page refresh
 - **Accessibility**: Proper labeling and keyboard navigation support
 
-## 🎨 Customization
-
-### Colors & Themes
-
-The app uses a purple glassmorphism theme. To customize:
-
-```css
-/* Main accent color */
-border: 2px solid #e6b7eca1; /* Purple accent */
-
-/* Background blur container */
-backdrop-filter: blur(15px); /* Glassmorphism effect */
-
-/* Task items */
-background-color: #463c7b; /* Task background */
-```
-
-### Styling Variables
-
-Consider adding CSS custom properties for easier theming:
-
-```css
-:root {
-  --primary-color: #e6b7eca1;
-  --task-bg: #463c7b;
-  --text-color: #eee;
-  --border-radius: 10px;
-}
-```
+---
 
 ## 🔧 Browser Support
 
